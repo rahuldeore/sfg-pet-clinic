@@ -1,5 +1,6 @@
 package rahul.springframework.sfgpetclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import rahul.springframework.sfgpetclinic.model.Vet;
 import rahul.springframework.sfgpetclinic.services.VetService;
 
@@ -8,6 +9,7 @@ import java.util.Set;
 /**
  * Created by Rahul on 2019-09-02
  */
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
